@@ -11,6 +11,16 @@
 		BE22DD8A2B82AF9500985AE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DD892B82AF9500985AE7 /* ContentView.swift */; };
 		BE22DD8C2B82AF9700985AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE22DD8B2B82AF9700985AE7 /* Assets.xcassets */; };
 		BE22DD8F2B82AF9700985AE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE22DD8E2B82AF9700985AE7 /* Preview Assets.xcassets */; };
+		BE22DD982B82AFF700985AE7 /* LightShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DD972B82AFF700985AE7 /* LightShape.swift */; };
+		BE22DD9A2B82B0B200985AE7 /* LampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DD992B82B0B200985AE7 /* LampView.swift */; };
+		BE22DD9C2B82B12C00985AE7 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DD9B2B82B12C00985AE7 /* BackgroundView.swift */; };
+		BE22DD9E2B82B18500985AE7 /* LampImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DD9D2B82B18500985AE7 /* LampImage.swift */; };
+		BE22DDA02B82B23D00985AE7 /* LightEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DD9F2B82B23D00985AE7 /* LightEffect.swift */; };
+		BE22DDA22B82B2E100985AE7 /* OpacityControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DDA12B82B2E100985AE7 /* OpacityControl.swift */; };
+		BE22DDA42B82B44C00985AE7 /* OpacityDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DDA32B82B44C00985AE7 /* OpacityDisplay.swift */; };
+		BE22DDA62B82B50E00985AE7 /* PowerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DDA52B82B50E00985AE7 /* PowerButton.swift */; };
+		BE22DDA82B82B8E300985AE7 /* HandleDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DDA72B82B8E300985AE7 /* HandleDragView.swift */; };
+		BE22DDAA2B82B93B00985AE7 /* HandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22DDA92B82B93B00985AE7 /* HandleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		BE22DD892B82AF9500985AE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE22DD8B2B82AF9700985AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE22DD8E2B82AF9700985AE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE22DD972B82AFF700985AE7 /* LightShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightShape.swift; sourceTree = "<group>"; };
+		BE22DD992B82B0B200985AE7 /* LampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampView.swift; sourceTree = "<group>"; };
+		BE22DD9B2B82B12C00985AE7 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BE22DD9D2B82B18500985AE7 /* LampImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampImage.swift; sourceTree = "<group>"; };
+		BE22DD9F2B82B23D00985AE7 /* LightEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightEffect.swift; sourceTree = "<group>"; };
+		BE22DDA12B82B2E100985AE7 /* OpacityControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityControl.swift; sourceTree = "<group>"; };
+		BE22DDA32B82B44C00985AE7 /* OpacityDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityDisplay.swift; sourceTree = "<group>"; };
+		BE22DDA52B82B50E00985AE7 /* PowerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerButton.swift; sourceTree = "<group>"; };
+		BE22DDA72B82B8E300985AE7 /* HandleDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleDragView.swift; sourceTree = "<group>"; };
+		BE22DDA92B82B93B00985AE7 /* HandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 		BE22DD862B82AF9500985AE7 /* LampApp */ = {
 			isa = PBXGroup;
 			children = (
+				BE22DD952B82AFCA00985AE7 /* View */,
 				BE22DD872B82AF9500985AE7 /* LampAppApp.swift */,
 				BE22DD892B82AF9500985AE7 /* ContentView.swift */,
 				BE22DD8B2B82AF9700985AE7 /* Assets.xcassets */,
@@ -65,6 +86,23 @@
 				BE22DD8E2B82AF9700985AE7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE22DD952B82AFCA00985AE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE22DD972B82AFF700985AE7 /* LightShape.swift */,
+				BE22DD992B82B0B200985AE7 /* LampView.swift */,
+				BE22DD9B2B82B12C00985AE7 /* BackgroundView.swift */,
+				BE22DD9D2B82B18500985AE7 /* LampImage.swift */,
+				BE22DD9F2B82B23D00985AE7 /* LightEffect.swift */,
+				BE22DDA12B82B2E100985AE7 /* OpacityControl.swift */,
+				BE22DDA32B82B44C00985AE7 /* OpacityDisplay.swift */,
+				BE22DDA52B82B50E00985AE7 /* PowerButton.swift */,
+				BE22DDA72B82B8E300985AE7 /* HandleDragView.swift */,
+				BE22DDA92B82B93B00985AE7 /* HandleView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE22DDA02B82B23D00985AE7 /* LightEffect.swift in Sources */,
+				BE22DDA22B82B2E100985AE7 /* OpacityControl.swift in Sources */,
+				BE22DDAA2B82B93B00985AE7 /* HandleView.swift in Sources */,
+				BE22DDA82B82B8E300985AE7 /* HandleDragView.swift in Sources */,
+				BE22DDA42B82B44C00985AE7 /* OpacityDisplay.swift in Sources */,
+				BE22DD9C2B82B12C00985AE7 /* BackgroundView.swift in Sources */,
 				BE22DD8A2B82AF9500985AE7 /* ContentView.swift in Sources */,
+				BE22DDA62B82B50E00985AE7 /* PowerButton.swift in Sources */,
+				BE22DD982B82AFF700985AE7 /* LightShape.swift in Sources */,
+				BE22DD9A2B82B0B200985AE7 /* LampView.swift in Sources */,
 				BE22DD882B82AF9500985AE7 /* LampAppApp.swift in Sources */,
+				BE22DD9E2B82B18500985AE7 /* LampImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
